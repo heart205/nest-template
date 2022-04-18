@@ -1,4 +1,3 @@
-export interface CatsService {
+export interface Cats {
   name: string;
-  age: number;
 }

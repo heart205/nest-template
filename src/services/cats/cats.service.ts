@@ -10,6 +10,7 @@ import { Injectable, Scope } from '@nestjs/common';
 
 // 存在作用域链的关系 被依赖方会和依赖方同一生命周期
 // 相当于Controller的实例的生命周期取决于Service的生命周期
+// Injectable指定类的生命周期
 @Injectable({
   scope: Scope.TRANSIENT,
 })

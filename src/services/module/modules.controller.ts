@@ -10,7 +10,7 @@ export class TestModuleController {
     this.number = '123';
   }
 
-  @Get('module')
+  @Get('modules')
   getModule(): string {
     console.log(this.modulesService.testMoudles());
     return 'module is ok';

@@ -11,9 +11,9 @@ import {
   Session,
 } from '@nestjs/common';
 import { UserService } from './users.service';
-import type { Users } from './users';
+import type { Users } from './interfaces/users';
 import type { Response } from 'express';
-import { UserDto } from './user.dto';
+import { UserDto } from './dto/user.dto';
 /**
  * host: 根据请求的host拦截
  */

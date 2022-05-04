@@ -1,5 +1,6 @@
 # nest template
 ## 文件项目：
+```ts
 .
 ├── README.md
 ├── app.controller.spec.ts
@@ -21,3 +22,5 @@
 ├── tsconfig.build.json
 ├── tsconfig.json
 └── yarn.lock
+
+```

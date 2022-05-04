@@ -18,7 +18,6 @@
 │   ├── services
 │   │   └── modules
 │   └── utils
-├── tree.md
 ├── tsconfig.build.json
 ├── tsconfig.json
 └── yarn.lock

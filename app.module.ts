@@ -6,6 +6,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 @Module({
   imports: [
     ConfigModule.forRoot({
+      // 读取环境变量配置
       envFilePath: `.${process.env.NODE_ENV || 'development'}.env`,
       isGlobal: true,
     }),

@@ -18,7 +18,8 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
@@ -29,6 +30,8 @@
     "@types/axios": "^0.14.0",
     "axios": "^0.26.1",
     "cross-env": "^7.0.3",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.1",
     "mysql2": "^2.3.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
@@ -36,6 +39,7 @@
     "typeorm": "^0.3.6"
   },
   "devDependencies": {
+    "@commitlint/config-conventional": "^16.2.4",
     "@nestjs/cli": "^8.0.0",
     "@nestjs/schematics": "^8.0.0",
     "@nestjs/testing": "^8.0.0",
@@ -45,6 +49,7 @@
     "@types/supertest": "^2.0.11",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
+    "commitlint": "^16.2.4",
     "eslint": "^8.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
